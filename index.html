@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash settlement</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/5548f5ed00.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body class="">
+    <nav class="navbar navbar-light rounded-3 px-5" style="font-size: 25px; font-family: sans-serif; background-color: whitesmoke;">
+        Cash Settlement Project
+    </nav>
+    <div id="container" class="row">
+        <div id="mynetwork" class="col-md-6 mt-2"></div>
+        <div id="container2" class="col-md-6 mt-2">
+            <span id="temptext" style="width: 100%; text-align: center; font-size: x-large">
+                Click on solve to get Solution !!
+            </span>
+            <div id="mynetwork2" style="display: none"></div>
+        </div>
+    </div>
+<br>
+    <div class="btns">
+        <button type="button" class="btn btn-danger" id="generate-graph">Get New Problem</button>
+        <button type="button" class="btn btn-success" id="solve">Solve</button>
+    </div>
+    <br>
+</body>
+<script src="script.js"></script>
+</html>
