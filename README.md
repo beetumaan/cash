@@ -8,4 +8,4 @@ Implemented the max-heap in javascript to solve the algorithm.
 The web app will give you a simplified solution with a great Visualization feature.
 [ by using "vis.js" Network Visulization ]
 
-Visit it to [here](bit.ly/3t5Nm5Q).
+Visit it to [here](http://19am.byethost14.com/cashsettlement/).
